@@ -1,0 +1,34 @@
+_id: req_3d5db0d8b27740279d86b6185449116e
+type: Request
+parentId: fld_c4b15c53891a4716a12747c6871d8089
+modified: 1651414217018
+created: 1647430564225
+url: "{{ _.base_url }}/user/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Bruno",
+    	"pass": "123"
+    }
+parameters:
+  - id: pair_3d500eb5d21e441fa2bcbb098fb818bd
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7cca928e13144e4bb3c4b2c7fba1e3e2
+authentication: {}
+metaSortKey: -1647430564225
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

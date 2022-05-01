@@ -1,0 +1,31 @@
+_id: req_d5a0324529b74f83bff6f39498d96ebc
+type: Request
+parentId: fld_c4b15c53891a4716a12747c6871d8089
+modified: 1651414238984
+created: 1651414238732
+url: "{{ _.base_url }}/user/update"
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Bruno",
+    	"oldPass": "absssssc",
+    	"newPass": "123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e8486f5a8f874063888104fa7b84fdd6
+authentication: {}
+metaSortKey: -1647819063880
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

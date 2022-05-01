@@ -1,0 +1,31 @@
+_id: req_f24e73e427024593964167ae53dc48b7
+type: Request
+parentId: fld_fac2ec038316486c9fa13fc4cfe0e0d2
+modified: 1648647484680
+created: 1646394454771
+url: "{{ _.base_url }}/user/sightings"
+name: sighting
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Bruno",
+    	"lat": 2343,
+    	"lon": 24324
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2ea4103f8c7849c4a05a6593651f7ddf
+authentication: {}
+metaSortKey: -1646395136674.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

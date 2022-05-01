@@ -1,0 +1,25 @@
+_id: req_3b9a07d1db8e4d829c606a0fc752c4c8
+type: Request
+parentId: fld_fac2ec038316486c9fa13fc4cfe0e0d2
+modified: 1648207348742
+created: 1646395118392
+url: "{{ _.base_url }}/user/sightings"
+name: sightings
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f7bb155152a648629811161d08622524
+    name: userName
+    value: Bruno
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1646395136724.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

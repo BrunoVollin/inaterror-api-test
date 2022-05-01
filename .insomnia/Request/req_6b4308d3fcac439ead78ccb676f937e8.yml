@@ -1,0 +1,30 @@
+_id: req_6b4308d3fcac439ead78ccb676f937e8
+type: Request
+parentId: fld_c4b15c53891a4716a12747c6871d8089
+modified: 1651419211128
+created: 1646529878855
+url: "{{ _.base_url }}/user/create"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Bruno",
+    	"pass": "123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e7940fbd3d4448adbf96b5ffb03360d1
+authentication: {}
+metaSortKey: -1646529878855
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

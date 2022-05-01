@@ -1,0 +1,14 @@
+_id: env_93d8a896a73a48a481e9567616d3cf52
+type: Environment
+parentId: env_d20f96cfa96a44c461204ef2e274ccfea3cc3507
+modified: 1646395502436
+created: 1646395314622
+name: Open Api env
+data:
+  base_url: localhost:8000
+dataPropertyOrder:
+  "&":
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1646395314622
